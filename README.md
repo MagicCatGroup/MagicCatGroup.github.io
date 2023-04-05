@@ -1,1 +1,1 @@
-# MgicCatGroup.github.io
+# MagicCatGroup.github.io
