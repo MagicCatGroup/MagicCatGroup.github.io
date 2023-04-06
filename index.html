@@ -1,61 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link href="Styles/main.css" rel="stylesheet">
-    <script src="Scripts/back-to-top.js" defer></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>My test page</title>
-  </head>
-  <body>
-
-    <!-- 页眉内容 -->
-    <header  id = "top">
-        <div class = "head-title">
-            <p>魔猫的WebSite</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="5.5;URL=main.html">
+    <!-- 网页自动跳转，5.5为过度时间，URL为目标页面 -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- 网站小图标，href链接本地图片地址 -->
+    <link rel="stylesheet" href="./Styles/loading.css" type="text/css">
+    <!-- css外部链接，href链接css文件本地地址 -->
+    <script src="./Scripts/loading.js"></script>
+    <!-- js外部链接，src链接js文件本地地址 -->
+    <title>Loading...</title>
+</head>
+<body>
+    <div class="box">
+            <div class="load">
+                <p>Loading</p>
+                <!-- 加载文字 -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="bar">
+                <!-- 进度条 -->
+                <span id="process"></span>
+                <div id="num">0%</div>
+            </div>
         </div>
-    </header>
-
-    <!-- 主要内容 -->
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>LongTextTest</p>
-    <p>aaaaaaaaaaaa</p>
-
-    <!-- 返回按钮 -->
-    <div class="back-to-top"> 
-        <a href="#top" target="_self"><i class='bx bxs-to-top bx-lg'></i></a>
     </div>
-
-    <!-- 页脚内容 -->
-    <footer>
-        
-    </footer>
-  </body>
+</body>
 </html>
