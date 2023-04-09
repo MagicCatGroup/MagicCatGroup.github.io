@@ -47,6 +47,68 @@ header {
   cursor: none;
 }
 
+/* 文章预览 盒子部分 */
+.Passage-Box {
+  position: inline;
+  width: 35%;
+  height: 270px;
+  margin-top: 20px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(216, 220, 223);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgb(112, 112, 112);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.Passage-Box:hover{
+  box-shadow: 8px 8px 5px rgb(84, 84, 84);
+}
+
+/* 文章预览 图片部分 */
+.IMG-Show {
+  display: inline;
+  float: left;
+  margin: 0;
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.IMG-Show img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat left;
+}
+
+/* 文章预览 小盒子部分 */
+.Passage-Show {
+  display: inline;
+  float: right;
+  width: 60%;
+  height: 90%;
+}
+
+/* 文章预览 文章标题部分 */
+.PassageTitle {
+  display: block;
+  text-align: center;
+  justify-content: right;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* 文章预览 文章预览内容部分 */
+.ContentPreview {
+  text-align: left;
+  display: inline;
+  margin-left: 10px;
+  color: #3f3f3f;
+}
+
 /* 返回顶部按钮 */
 #back-to-top-button {
   display: none; /* 默认隐藏 */

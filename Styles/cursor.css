@@ -1,0 +1,12 @@
+/* 鼠标样式 */
+#cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #262626;
+    opacity: 0.5;
+    z-index: 10086;
+    pointer-events: none;
+    transition: all 0.25s ease-in-out; /* this is the same as the transition on the cursor-related CSS properties */
+    transition-property: background, opacity, transform; /* this is the same as the background-property of the cursor-related CSS properties */
+}

@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Refresh" content="5.5;URL=main.html">
-    <!-- 网页自动跳转，5.5为过度时间，URL为目标页面 -->
+    <meta http-equiv="Refresh" content="4.5;URL=main.html">
+    <!-- 网页自动跳转，4.5为过度时间，URL为目标页面 -->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <!-- 网站小图标，href链接本地图片地址 -->
     <link rel="stylesheet" href="./Styles/loading.css" type="text/css">
     <!-- css外部链接，href链接css文件本地地址 -->
     <script src="./Scripts/loading.js"></script>
     <!-- js外部链接，src链接js文件本地地址 -->
+    <link rel="preload" href="./Styles/main.css" as="style">
     <title>Loading...</title>
 </head>
+
 <body>
     <div class="box">
-            <div class="load">
-                <p>Loading</p>
-                <!-- 加载文字 -->
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="bar">
-                <!-- 进度条 -->
-                <span id="process"></span>
-                <div id="num">0%</div>
-            </div>
+        <div class="load">
+            <p>Loading</p>
+            <!-- 加载文字 -->
+            <span></span>
+            <span></span>
+        </div>
+        <div class="bar">
+            <!-- 进度条 -->
+            <span id="process"></span>
+            <div id="num">0%</div>
         </div>
     </div>
+    </div>
 </body>
+
 </html>
